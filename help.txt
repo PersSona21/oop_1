@@ -1,0 +1,7 @@
+Запускать:
+mkdir build
+cd build
+cmake -DCMAKE_TOOLCHAIN_FILE=../gcc14_toolchain.cmake ..
+make
+./extract_numbers
+ctest
